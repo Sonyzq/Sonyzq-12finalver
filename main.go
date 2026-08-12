@@ -145,7 +145,7 @@ func main() {
 		return
 	}
 
-	// вывод посылок клиента
+	// вывод посылок клие
 	// предыдущая посылка не должна удалиться, т.к. её статус НЕ «зарегистрирована»
 	err = service.PrintClientParcels(client)
 	if err != nil {
@@ -175,3 +175,5 @@ func main() {
 		return
 	}
 }
+
+//final
